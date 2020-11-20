@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="5-57859_arrow-pointing-left-free-download-clip-art-on-clipart-black-arrow-pointing.png" />
+    <None Remove="80b3e971e40a24fa27065f7acdea17d5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="5-57859_arrow-pointing-left-free-download-clip-art-on-clipart-black-arrow-pointing.png" />
+    <Resource Include="80b3e971e40a24fa27065f7acdea17d5.jpg" />
+  </ItemGroup>
+
+</Project>
