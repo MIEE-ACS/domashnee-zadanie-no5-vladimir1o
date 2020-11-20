@@ -192,7 +192,7 @@ namespace WpfApp1
             }
             else
             {
-                if (sign.Text == "+") { MessageBox.Show($"{a.Numerator} {a.Denominator} {b.Numerator} {b.Denominator}"); c = Fraction.Plus(a, b); }
+                if (sign.Text == "+") { c = Fraction.Plus(a, b); }
                 else if (sign.Text == "-") { c = Fraction.Minus(a, b); }
                 else if (sign.Text == "*") { c = Fraction.Mult(a, b); }
                 else if (sign.Text == "/") { c = Fraction.Div(a, b); }
